@@ -1,7 +1,7 @@
 const readline = require("readline-sync");
 const name = readline.question("What is your name? ");
 console.log("Hello " + name + "!");
-if (readline.keyInYN('would you like to play a game?')) {   
+if (readline.keyInYN('would you like to play a game? yes/no')) {   
     console.log("Everything fades to black.....") 
     } else {
         process.exit();
